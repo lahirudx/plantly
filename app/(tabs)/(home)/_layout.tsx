@@ -3,6 +3,11 @@ import { Pressable } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { theme } from "@/theme";
 
+export const unstable_settings = {
+  // Ensure any route can link back to `/`
+  initialRouteName: "index",
+};
+
 export default function RootLayout() {
   return (
     <Stack screenOptions={{}}>
